@@ -9,7 +9,7 @@ body {
 }
 header {
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), #336699;
+  background: #336699;
   height: 60vh;
   color: white;
   display: flex;
