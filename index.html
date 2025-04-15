@@ -5,22 +5,73 @@
   <title>ほんま歯科医院</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: sans-serif; margin: 0; padding: 0; line-height: 1.6; background-color: #f9f9f9; color: #333; }
-    header, footer { background: #3399cc; color: white; text-align: center; padding: 1.5em; }
-    main { padding: 2em; max-width: 900px; margin: auto; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    img { max-width: 100%; height: auto; border-radius: 8px; }
-    .gallery { display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; }
-    .gallery img { width: 100%; max-width: 260px; height: auto; object-fit: cover; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    .caption { text-align: center; font-size: 0.9em; margin-top: 0.5em; color: #555; }
-    a { color: #006699; text-decoration: none; }
-    table { border-collapse: collapse; width: 100%; max-width: 500px; margin: 1em auto; font-size: 0.9em; }
-    th, td { border: 1px solid #ccc; padding: 0.5em; text-align: center; }
-    th { background-color: #e0f0fa; }
-    h2, h3 { color: #3399cc; }
-    @media (max-width: 600px) {
-      main { padding: 1em; }
-      .gallery { flex-direction: column; align-items: center; }
-      table { font-size: 0.8em; }
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f9fc;
+      color: #333;
+    }
+    header {
+      background: url('honma_screenshot.png') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 6em 1em;
+      background-color: #333;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2em 1em;
+      background: white;
+    }
+    h2 {
+      color: #0d6efd;
+      border-bottom: 2px solid #0d6efd;
+      padding-bottom: 0.3em;
+      margin-top: 2em;
+    }
+    .clinic-image {
+      text-align: center;
+    }
+    .clinic-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .caption {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 0.5em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.5em;
+      text-align: center;
+    }
+    th {
+      background-color: #e7f0ff;
+    }
+    footer {
+      text-align: center;
+      padding: 2em 1em;
+      color: #666;
+      background-color: #f0f0f0;
+      margin-top: 3em;
     }
   </style>
 </head>
@@ -28,59 +79,31 @@
 
 <header>
   <h1>ほんま歯科医院</h1>
-  <p>地域に根ざした安心の歯科医療</p>
+  <p>地域のお⼝の健康を守ります</p>
 </header>
 
 <main>
-  <section>
-    <h2>基本情報</h2>
-    <p>住所：〒950-3376 新潟県新潟市北区早通北４丁目６−３１</p>
-    <p>電話：<a href="tel:0253861115">025-386-1115</a></p>
-    <p>診療時間：9:00～12:30／14:30～18:30</p>
-    <h3>休診日</h3>
-    <table>
-      <tr><th>曜日</th><th>午前</th><th>午後</th></tr>
-      <tr><td>月</td><td>○</td><td>○</td></tr>
-      <tr><td>火</td><td>○</td><td>○</td></tr>
-      <tr><td>水</td><td>○</td><td>○</td></tr>
-      <tr><td>木</td><td>○</td><td>休診</td></tr>
-      <tr><td>金</td><td>○</td><td>○</td></tr>
-      <tr><td>土</td><td>○</td><td>休診</td></tr>
-      <tr><td>日</td><td>休診</td><td>休診</td></tr>
-    </table>
-  </section>
+  <h2>医院について</h2>
+  <div class="clinic-image">
+    <img src="honma_screenshot.png" alt="医院外観">
+    <p class="caption">ほんま歯科医院の外観。安心してご来院いただける環境を整えています。</p>
+  </div>
 
-  <section>
-    <h2>アクセス</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.2672191722975!2d139.197502!3d37.930231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff5abce4f0a5a2f%3A0x1d8c3468c3c9a799!2z44CSOTUwLTMzNzYg5paw5r2f55yM5paw5r2f5biC5LiK5bGL5Yy65qC45qCh5Yy65aSn5a2m!5e0!3m2!1sja!2sjp!4v1713256000000!5m2!1sja!2sjp" width="100%" height="300" style="border:0; border-radius:8px;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <p><strong>アクセス方法：</strong></p>
-    <ul>
-      <li><strong>電車：</strong>JR白新線「早通駅」から徒歩約8分</li>
-      <li><strong>お車：</strong>国道7号線から県道26号線を経由し、早通駅方面へ。医院前に駐車場あり。</li>
-    </ul>
-  </section>
+  <h2>診療時間</h2>
+  <table>
+    <tr><th>診療時間</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th><th>日</th></tr>
+    <tr><td>9:00～12:30</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>－</td></tr>
+    <tr><td>14:30～18:30</td><td>●</td><td>●</td><td>●</td><td>－</td><td>●</td><td>－</td><td>－</td></tr>
+  </table>
 
-  <section>
-    <h2>医院について</h2>
-    <div class="gallery">
-      <div>
-        <img src="honnmadental外観.jpg" alt="医院外観">
-        <p class="caption">ほんま歯科医院の外観。駐車場も完備しております。</p>
-      </div>
-      <div>
-        <img src="https://cdn.pixabay.com/photo/2017/08/06/11/49/dentist-2593030_1280.jpg" alt="診療室">
-        <p class="caption">明るく清潔な診療スペース。</p>
-      </div>
-      <div>
-        <img src="https://cdn.pixabay.com/photo/2016/11/29/10/07/dentist-1864921_1280.jpg" alt="待合室">
-        <p class="caption">リラックスできる待合室。</p>
-      </div>
-    </div>
-  </section>
+  <p style="margin-top: 1em;">
+    〒950-3376 新潟県新潟市北区早通北４丁目６−３１<br>
+    TEL：<a href="tel:0253861115">025-386-1115</a>
+  </p>
 </main>
 
 <footer>
-  <p>© 2025 ほんま歯科医院</p>
+  © 2025 ほんま歯科医院
 </footer>
 
 </body>
