@@ -9,7 +9,7 @@ body {
 }
 header {
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('honma_screenshot.png') center/cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), #336699;
   height: 60vh;
   color: white;
   display: flex;
@@ -38,20 +38,6 @@ h2 {
   border-left: 6px solid #0d6efd;
   padding-left: 0.5em;
   margin-top: 2em;
-}
-.clinic-image {
-  text-align: center;
-  margin-top: 1.5em;
-}
-.clinic-image img {
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-.caption {
-  font-size: 0.9em;
-  color: #666;
-  margin-top: 0.5em;
 }
 table {
   width: 100%;
