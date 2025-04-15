@@ -9,7 +9,7 @@ body {
 }
 header {
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('honma_screenshot.png') center/cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('honma_screenshot.png') center/cover no-repeat;
   height: 60vh;
   color: white;
   display: flex;
